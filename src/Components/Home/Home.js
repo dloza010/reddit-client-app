@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 // import { AnimatedList } from 'react-animated-list';
 import { Posts } from '../Posts/posts';
 // import PostLoading from '../Post/PostLoading';
-import getRandomNumber from '../../util/getRandomNumber';
+// import getRandomNumber from '../../util/getRandomNumber';
 import {
   fetchPosts,
   selectFilteredPosts,
@@ -15,13 +15,13 @@ import './Home.css';
 
 const Home = () => {
   const reddit = useSelector((state) => state.reddit);
-  const { isLoading, error, searchTerm, selectedSubreddit } = reddit;
+  const { error, searchTerm, selectedSubreddit } = reddit;
   const posts = useSelector(selectFilteredPosts);
   const dispatch = useDispatch();
 
   useEffect(() => {
     dispatch(fetchPosts(selectedSubreddit));
-  }, [selectedSubreddit]);
+  }, [selectedSubreddit, dispatch]);
 
   const onToggleComments = (index) => {
     const getComments = (permalink) => {

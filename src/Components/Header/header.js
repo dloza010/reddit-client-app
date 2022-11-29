@@ -26,7 +26,7 @@ export const Header = () => {
 
     useEffect(() => {
         dispatch(fetchPosts(selectedSubreddit));
-      }, [selectedSubreddit]);
+      }, [selectedSubreddit, dispatch]);
     
     const onSearchTermSubmit = (e) => {
         e.preventDefault();

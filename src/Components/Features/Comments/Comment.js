@@ -1,6 +1,6 @@
 import React from 'react';
 // import moment from 'moment';
-import ReactMarkdown from 'react-markdown';
+// import ReactMarkdown from 'react-markdown';
 import './Comment.css';
 // import Avatar from '../Avatar/Avatar';
 

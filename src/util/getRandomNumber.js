@@ -3,6 +3,8 @@
  * @param {number} min
  * @param {number} max
  */
- export default (min, max) => {
+
+
+export var getRandomNumber = function(min, max){
     return Math.floor(Math.random() * max) + min;
-  };
+};
