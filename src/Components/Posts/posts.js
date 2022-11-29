@@ -6,7 +6,7 @@ import {
   TiArrowDownThick,
   TiMessage,
 } from 'react-icons/ti';
-import './Posts.css';
+import './posts.css';
 import { shortenNumber } from '../../util/shortenNumber';
 import { Comments } from "../Features/Comments/Comment";
 

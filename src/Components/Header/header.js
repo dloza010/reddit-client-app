@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { HiSearch } from "react-icons/hi";
 import { useDispatch } from 'react-redux';
 import { FaRedditAlien } from 'react-icons/fa';
-import './Header.css';
+import './header.css';
 import { useSelector } from 'react-redux';
 import { useEffect } from 'react';
 import { fetchPosts, setSearchTerm } from '../../Store/redditSlice';

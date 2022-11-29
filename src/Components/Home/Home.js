@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 // import { AnimatedList } from 'react-animated-list';
-import { Posts } from '../Posts/Posts';
+import { Posts } from '../Posts/posts';
 // import PostLoading from '../Post/PostLoading';
 import getRandomNumber from '../../util/getRandomNumber';
 import {

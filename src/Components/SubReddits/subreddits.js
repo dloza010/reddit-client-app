@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchSubreddits, selectSubreddits } from '../../Store/subRedditSlice';
-import './Subreddits.css';
+import './subreddits.css';
 import {
   setSelectedSubreddit,
   selectSelectedSubreddit,
