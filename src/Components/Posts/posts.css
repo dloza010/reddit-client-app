@@ -1,0 +1,109 @@
+article{
+    background-color: aqua;
+}
+.card {
+    background: var(--color-foreground);
+    color: var(--color-text-secondary);
+    box-shadow: var(--box-shadow);
+    border-radius: var(--radius);
+    margin-bottom: var(--spacing-4);
+    padding: var(--spacing-3);
+    transition: box-shadow 0.1s ease-in;
+}
+.post-container{
+    width: 100%;
+}
+
+.post-wrapper {
+    display: flex;
+}
+
+.post-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid var(--color-border);
+    font-size: 0.75rem;
+}
+
+.post-image-container {
+    width: 100%;
+    overflow: hidden;
+    border-radius: var(--radius-2);
+}
+
+.post-image-container .post-image {
+    width: 100%;
+  }
+
+.post-wrapper .post-votes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    font-weight: bold;
+}
+
+.vote-icon {
+    font-size: 1.5rem;
+    color: var(--color-text-secondary);
+}
+
+.vote-up-active {
+    color: var(--color-success) !important;
+}
+
+.vote-up:hover{
+    color: var(--color-success);
+}
+
+.vote-down-active{
+    color: var(--color-alert);
+}
+
+.vote-down:hover{
+    color: var(--color-alert);
+}
+
+.icon-vote-button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.post-title {
+    margin: 0;
+    margin-bottom: var(--spacing-2);
+    color: var(--color-text-header);
+}
+
+.post-container{
+    width: 100%;
+}
+
+.post-votes-container {
+    margin-right: var(--spacing-3);
+}
+
+.icon-action-button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.comment-button:hover{
+    background-color: var(--color-on-hover);
+}
+
+.comment-icon{
+    color: var(--color-text-body);
+    font-size: 1.5rem;
+}
+
+.comments-container{
+    display: flex;
+    align-items: center;
+}
+
